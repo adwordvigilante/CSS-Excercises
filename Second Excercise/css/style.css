@@ -12,10 +12,10 @@ header {
 	text-align: center;
 	padding-bottom: 50px;
 	width: 100%;
+	position: relative;
 }
 
 header h2 {
-	position: relative;
 	padding-top: 50px;
 }
 
@@ -24,6 +24,10 @@ header img {
 	border: solid #fff 2px;
 	height: 90px;
 	width: 90px;
+	position: absolute;
+	left: 10%;
+	bottom: 10%;
+
 
 }
 
@@ -37,6 +41,14 @@ header img {
 	line-height: 200%;
 }
 
+@media screen and (max-width: 650px) {
+	#left-menu {
+		font-size: 80%;
+		width: 30%;
+
+	}
+
+}
 
 #main-content {
 	background-color: #D2D2D2;
