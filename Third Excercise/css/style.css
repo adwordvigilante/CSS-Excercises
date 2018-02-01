@@ -1,114 +1,57 @@
-/* GLOBAL */
-* {
-	font-family: sans-serif;
-	margin: 0;
-	padding: 0;
-	outline: 0;
-}
-
+/* Global */
 body {
-	margin-right: 20px;
-}
-
-/* Containers */
-#content-container nav {
-	text-align: center;
-
-
-}
-
-#content-container nav li {
-	display: inline-block;
-
-}
-
-#content-container nav li, a {
-	display: inline-block;
-	padding-right: 5px;
-
-}
-
-#content-container header h1 {
-	background: #617F80;
-	padding-bottom: 50px;
-}
-
-#content-container nav {
-	background: #93DEDF;
-}
-
-#content-container nav ul {
-	margin-top: 23px;
-	margin-bottom: 23px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-#article-container {
-	background: #435656;
-	min-height: 700px;
-	width: 78%;
+	font-family: sans-serif;
+	padding: 0;
 	margin: 0;
-	border: 0;
-	font-size: 16px;
-	float: left;
 }
 
-#gallery-container {
-	background: #617F80;
-	min-height: 700px;
-	vertical-align: top;
-	border: 0;
-	float: right;
-	width: 20%;
+h1 {
+	margin: 0;
 }
 
-footer {
-	height: 50px;
-	width: 99%;
+header .title {
+	background-color: #617F80;
+	padding-bottom: 60px;
+}
+
+header nav {
 	background-color: #93DEDF;
-	left: 0;
-	bottom: 0;
-	margin-right: 20px;
-	position: absolute;
+	text-align: center;
+	margin-top: 20px;
+	padding: 15px;
 }
 
-
-#images {
-	position: relative;
-}
-#gallery-container .first-image {
-	position: absolute;
-	max-width: 250px;
-	max-height: 250px;
-	margin-left: 50px;
-	margin-top: 25px;
+header li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
+	
 }
 
-#gallery-container .second-image {
-	position: absolute;
-	max-width: 250px;
-	max-height: 250px;
-	margin-left: 50px;
-	margin-top: 300px;
+#article {
+	background: #435656;
+	float: left;
+	min-height: 600px;
+	margin-top: 20px;
+}
+
+aside#pictures {
+	background: #617F80;
+	min-height: 600px;
+	margin-top: 20px;
+	float: right;
+	width: 15%; 
+}
+
+#pictures .box img {
+	width: auto;
+    height: auto;
+    max-height: 230px;
+    max-width: 230px;
+}
 
 }
 
-
-/* LINKS */
-
-nav a:link {
-	text-decoration: none;
-	color: #1C7ECC;
-	font-weight: bold;
-}
-
-nav a:active {
-	color: #1C7ECC;
-	font-weight: bold;
-}
-
-nav a:visited {
-	color: #1C7ECC;
-	font-weight: bold;
+#pictures .box img:first-child(1) {
+	margin-bottom: 50px;
 }
