@@ -1,0 +1,40 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#logo img {
+    max-width: 150px;
+    max-height: 150px;
+    float: left;
+}
+
+header .title {
+    float: left;
+}
+
+header .social-media ul {
+    list-style: none;
+    display: inline-block;
+
+}
+
+header .search {
+    float: right;
+}
+
+h1 {
+    font-size: 32px; 
+    letter-spacing: 3px;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+}
