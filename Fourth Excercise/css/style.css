@@ -1,4 +1,6 @@
-/* Global */
+/* GLOBAL 
+----------------------------------------
+*/
 
 * {
     margin: 0;
@@ -6,19 +8,28 @@
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 32px; 
+    letter-spacing: 3px;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
 #wrapper {
     max-width: 1080px; 
     margin: 0 auto;
 }
 
-#logo img {
-    max-width: 100px;
-    max-height: 100px;
-    margin-top: 25px;
-}
+/* HEADER
+----------------------------------------
+*/
 
 header .title p {
     text-align: center;
+    position: relative;
+    bottom: 52px;
 }
 
 header .social-media ul {
@@ -31,11 +42,8 @@ header .social-media li {
 
 }
 
-h1 {
-    font-size: 32px; 
-    letter-spacing: 3px;
-}
-
-h1, h2 {
-    font-family: 'Dancing Script', cursive;
+header img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 25px;
 }
