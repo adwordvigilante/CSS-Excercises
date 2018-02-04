@@ -68,16 +68,25 @@ header .social-nav {
     float: right;
     position: relative;
     bottom: 70px;
-    right: 225px;
+    right: 370px;
+    border-right: solid 1px #BCB292;
+    
+}
+
+
+header .search {
+    float: right;
+    position: relative;
+    bottom: 70px;
+    right: 150px;
 }
 
 input {
-    position: absolute;
-    left: 1350px;
-    width: 95px;
-    bottom: 450px;
     border: #D6D0B8 1px solid;
+    width: 80px;
+
 }
+
 
 .fab {
     font-family: Font Awesome\ 5 Brands;
@@ -86,9 +95,9 @@ input {
 
 .fa, .fas {
     font-weight: 900;
-    float: right;
-    position: relative;
-    right: 70px;
-    bottom: 55px;
     color: #EE4D28;
+    position: absolute;
+    right: 85px;
+    font-size: 14px;
+    margin-top: 2px;
 }
